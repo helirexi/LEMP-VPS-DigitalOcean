@@ -39,7 +39,7 @@ Change dir
 
     cd /sbin
 
-Copy our script
+Copy 'init' script
 
     cp /tmp/init ./
 
