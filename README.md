@@ -1,20 +1,19 @@
-LEMP-VPS-DigitalOcean
-=====================
-####How to use last kernels in Digital Ocean 'droplet' VPS with ArchLinux
--------------------------------------------------------------------------
+ArchLinux VPS at DigitalOcean (LEMP server)
+===========================================
+####How to use own kernels in DigitalOcean's droplet VPS with ArchLinux
 
-#####You may read about problem with 'custom' kernels [here](https://www.digitalocean.com/community/articles/pacman-syu-kernel-update-solved-how-to-ignore-arch-kernel-upgrades) and [here](http://digitalocean.uservoice.com/forums/136585-digital-ocean/suggestions/2814988-give-option-to-use-the-droplet-s-own-bootloader-?page=1&per_page=20)
-
->@Sean commented  ·  June 10, 2013 4:29 p.m.
->This is how I set up my own kernels. (try at your own risk) http://www.youtube.com/watch?v=LHNPTvMwHPE
+#####You may read about problem with own kernels [here](https://www.digitalocean.com/community/articles/pacman-syu-kernel-update-solved-how-to-ignore-arch-kernel-upgrades) and [here](http://digitalocean.uservoice.com/forums/136585-digital-ocean/suggestions/2814988-give-option-to-use-the-droplet-s-own-bootloader-?page=1&per_page=20)
 
 
-I follow to Sean video (see his youtube video is a must!) I made this with my arch droplet.
+>#####@Sean commented  ·  June 10, 2013 4:29 p.m.
+>#####This is how I set up my own kernels. (try at your own risk) http://www.youtube.com/watch?v=LHNPTvMwHPE
 
 
-----------------------------------------------------------------------------------------------
+
 ##Warning! Before you begin please make SNAPSHOT of you droplet in DigitalOcean control panel!
 ----------------------------------------------------------------------------------------------
+
+I follow to Sean video (please see his youtube-video linked above) I made the trick with my Arch VPS.
 
 There few steps after ssh to you droplet.
 
