@@ -1,13 +1,22 @@
 LEMP-VPS-DigitalOcean
 =====================
-###How to use last kernels in Digital Ocean droplet 
+####How to use last kernels in Digital Ocean 'droplet' VPS with ArchLinux
+-------------------------------------------------------------------------
+
+#####You may read about problem with 'custom' kernels [here](https://www.digitalocean.com/community/articles/pacman-syu-kernel-update-solved-how-to-ignore-arch-kernel-upgrades) and [here](http://digitalocean.uservoice.com/forums/136585-digital-ocean/suggestions/2814988-give-option-to-use-the-droplet-s-own-bootloader-?page=1&per_page=20)
 
 >@Sean commented  ·  June 10, 2013 4:29 p.m.
 >This is how I set up my own kernels. (try at your own risk) http://www.youtube.com/watch?v=LHNPTvMwHPE
 
-Following to Sean video (see his youtube video) made this with my arch droplet.
 
-There few steps.
+I follow to Sean video (see his youtube video is a must!) I made this with my arch droplet.
+
+
+----------------------------------------------------------------------------------------------
+##Warning! Before you begin please make SNAPSHOT of you droplet in DigitalOcean control panel!
+----------------------------------------------------------------------------------------------
+
+There few steps after ssh to you droplet.
 
 Switch to root (if you have sudo installed)
 
@@ -62,3 +71,11 @@ And after reboot you droplet ('sudo reboot' not work after remove systemd-sysvco
     systemctl reboot
 
 Check now you kernel  (uname -a) and happy!
+
+-------------------------------------------------------------------------------------
+
+Some usefull links about Kexec:
+
+[Arch Wiki](https://wiki.archlinux.org/index.php/Kexec)
+
+[IBM developerworks](http://www.ibm.com/developerworks/linux/library/l-kexec/index.html)
